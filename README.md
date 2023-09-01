@@ -12,7 +12,7 @@ Aplikacja budżetu domowego ma za zadnie umożliwić użytkownikowi przeliczenie
 4. Stworzenie kodu z wykorzystaniem walidacji danych oraz wyłapywania możliwych błędów użytkownika.
 
 **<a href="https://budzetdomowy.netlify.app/">KLIKNIJ, BY WYŚWIETLIĆ STRONĘ</a>**
-![PODGLĄD STRONY](/DesktopView.PNG)
+[![PODGLĄD STRONY](/DesktopView.PNG)]
 
 # **ENG**
 
