@@ -1,0 +1,306 @@
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("bgr1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 94%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  padding: 40px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 80px;
+  width: 80px;
+  margin: 35px 20px;
+}
+
+.sum-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px rgb(41, 39, 54);
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.income,
+.spendings {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid;
+  background: rgba(190, 194, 252, 0.615);
+  border-radius: 10px;
+}
+
+.li-name,
+.li-value {
+  width: fit-content;
+  margin-left: 5px;
+  padding-right: 3px;
+  background-color: transparent;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+
+.li-value {
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.li-name::before {
+  content: "•";
+  margin-right: 5px;
+}
+
+.header {
+  margin: 10px 3px;
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.line {
+  width: 100%;
+  margin-top: 5px;
+  border-bottom: 1px solid black;
+}
+
+.input-long,
+.input-short {
+  width: 80%;
+  margin: 7px 5px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(191, 176, 219);
+  font-size: 13px;
+  white-space: normal;
+}
+
+input::placeholder {
+  color: rgb(98, 89, 110);
+}
+
+.btn,
+.list-btn {
+  margin: 3px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px rgba(59, 51, 85, 0.61);
+  background-color: rgb(189, 177, 218);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.buttons {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saveBtn-on {
+  background-color: rgb(191, 176, 219);
+  border-radius: 5px;
+}
+
+.editBtn-on {
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+.income-list,
+.spendings-list {
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 13px;
+}
+
+.income-sum-txt,
+.spendings-sum-txt {
+  margin: 5px 3px 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.total-income-value,
+.total-spendings-value {
+  margin: 5px 3px 7px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.source {
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.budget-summary {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    height: 130px;
+    width: 130px;
+    margin: 50px 30px;
+  }
+
+  .sum-up {
+    font-size: 28px;
+  }
+
+  .li-name,
+  .li-value {
+    font-size: 18px;
+  }
+
+  .header {
+    font-size: 18px;
+  }
+
+  .input-long,
+  .input-short {
+    font-size: 18px;
+  }
+
+  .btn,
+  .list-btn {
+    font-size: 17px;
+  }
+
+  .income-list,
+  .spendings-list {
+    font-size: 18px;
+  }
+
+  .income-sum-txt,
+  .spendings-sum-txt {
+    font-size: 18px;
+  }
+
+  .total-income-value,
+  .total-spendings-value {
+    font-size: 18px;
+  }
+
+  .source {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding: 30px 0 0 0;
+  }
+
+  .img {
+    height: 150px;
+    width: 150px;
+    margin: 20px 30px;
+  }
+
+  .sum-up {
+    margin-left: 50px;
+    font-size: 32px;
+  }
+
+  .main {
+    flex-direction: row;
+  }
+
+  .income,
+  .spendings {
+    min-width: 450px;
+  }
+
+  .li-name,
+  .li-value {
+    font-size: 18px;
+  }
+
+  .header {
+    font-size: 22px;
+  }
+
+  .input-long {
+    font-size: 22px;
+  }
+
+  .input-short {
+    font-size: 22px;
+  }
+
+  .btn,
+  .list-btn {
+    font-size: 20px;
+  }
+
+  .income-list,
+  .spendings-list {
+    font-size: 22px;
+  }
+
+  .income-sum-txt,
+  .spendings-sum-txt {
+    font-size: 22px;
+  }
+
+  .total-income-value,
+  .total-spendings-value {
+    font-size: 22px;
+  }
+
+  .source {
+    text-align: center;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Domowy budżet</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="intro">
+        <img class="img" src="portfel1.png" alt="Tu powinno być logo" />
+        <div class="sum-up" id="sum-up">Możesz jeszcze wydać ...... PLN</div>
+      </section>
+      <section class="main">
+        <div class="income">
+          <p class="header">PRZYCHODY</p>
+          <div class="line"></div>
+          <input
+            class="input-long"
+            id="income-name"
+            type="text"
+            placeholder="Nazwa przychodu"
+          />
+          <input
+            class="input-short"
+            id="income-value"
+            type="number"
+            min="0.01"
+            placeholder="Kwota w PLN"
+          />
+          <button class="btn" id="income-btn">Dodaj</button>
+          <ul class="income-list" id="income-list"></ul>
+          <div class="line"></div>
+          <p class="income-sum-txt">Suma przychodów:</p>
+          <span class="total-income-value" id="total-income-value">PLN</span>
+        </div>
+        <div class="spendings">
+          <p class="header">WYDATKI</p>
+          <div class="line"></div>
+          <input
+            class="input-long"
+            id="spending-name"
+            type="text"
+            placeholder="Nazwa wydatku"
+          />
+          <input
+            class="input-short"
+            id="spending-value"
+            type="number"
+            min="0"
+            placeholder="Kwota w PLN"
+          />
+          <button class="btn" id="spending-btn">Dodaj</button>
+          <ul class="spendings-list" id="spendings-list"></ul>
+          <div class="line"></div>
+          <p class="spendings-sum-txt">Suma wydatków:</p>
+          <span class="total-spendings-value" id="total-spendings-value"
+            >PLN</span
+          >
+        </div>
+      </section>
+      <footer class="source">
+        <span>Obraz autorstwa pikisuperstar na Freepik</span>
+        <span>Obraz autorstwa GarryKillian na Freepik</span>
+      </footer>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
