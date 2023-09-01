@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("bgr1.jpg");
+  background-image: url("./assets/bgr1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
