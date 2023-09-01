@@ -27,5 +27,8 @@ The home budget application is designed to allow the user to calculate the diffe
 4. Creating a code using data validation and catching possible user errors.
 
 **<a href="https://budzetdomowy.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
+<p align="center">
+![DESKTOP VIEW](/assets/DesktopView.PNG) </p>
 
-![DESKTOP VIEW](/assets/DesktopView.PNG) ![MOBILE VIEW](/assets/MobileView.PNG)
+<p align="center">
+![MOBILE VIEW](/assets/MobileView.PNG)</p>
