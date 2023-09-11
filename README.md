@@ -11,7 +11,7 @@ Aplikacja budżetu domowego ma za zadnie umożliwić użytkownikowi przeliczenie
 3. Wykorzystanie w aplikacji znajomości tagów HTML i CSS (z uwzględnieniem techniki RWD) oraz sposobu, w jaki korespondują z kodem JS.
 4. Stworzenie kodu z wykorzystaniem walidacji danych oraz wyłapywania możliwych błędów użytkownika.
 
-**<a href="https://budzetdomowy.netlify.app/">KLIKNIJ, BY WYŚWIETLIĆ STRONĘ</a>**
+**<a href="https://budzetdomowy-js.netlify.app/">KLIKNIJ, BY WYŚWIETLIĆ STRONĘ</a>**
 
 # **ENG**
 
@@ -26,7 +26,7 @@ The home budget application is designed to allow the user to calculate the diffe
 3. Using knowledge of HTML and CSS tags in the application (including Responsive Web Design techniques) and the way they correspond to the JS code.
 4. Creating a code using data validation and catching possible user errors.
 
-**<a href="https://budzetdomowy.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
+**<a href="https://budzetdomowy-js.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
 
 <p align="center">
   <img height="400" src="/assets/DesktopView.jpg" alt="DESKTOP VIEW">
